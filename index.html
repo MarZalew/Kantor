@@ -97,13 +97,13 @@
 									  var xmlhttp = new XMLHttpRequest();
 									  xmlhttp.onreadystatechange = function() {
 									    if (this.readyState == 4 && this.status == 200) {
-									      myFunction(this);
+									      goldmyFunction(this);
 									    }
 									  };
 									  xmlhttp.open("GET", "gold_price.xml", true);
 									  xmlhttp.send();
 									}
-									function myFunction(xml) {
+									function goldmyFunction(xml) {
 									  var i;
 									  var xmlDoc = xml.responseXML;
 									  var table="<tr><th>Artist</th><th>Title</th></tr>";
@@ -143,13 +143,13 @@
 									  var xmlhttp = new XMLHttpRequest();
 									  xmlhttp.onreadystatechange = function() {
 									    if (this.readyState == 4 && this.status == 200) {
-									      myFunction(this);
+									      currencymyFunction(this);
 									    }
 									  };
 									  xmlhttp.open("GET", "currency_price.xml", true);
 									  xmlhttp.send();
 									}
-									function myFunction(xml) {
+									function currencymyFunction(xml) {
 									  var i;
 									  var xmlDoc = xml.responseXML;
 									  var table="<tr><th>Artist</th><th>Title</th></tr>";
