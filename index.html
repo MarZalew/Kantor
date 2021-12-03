@@ -94,14 +94,22 @@
 
 									<script>
 									function goldloadXMLDoc() {
+										var timer;
 									  var xmlhttp = new XMLHttpRequest();
 									  xmlhttp.onreadystatechange = function() {
 									    if (this.readyState == 4 && this.status == 200) {
 									      goldmyFunction(this);
 									    }
 									  };
+										
+										xmlhttp.onerror = function() {
+										clearTimeout(timer);
+										};
+
 									  xmlhttp.open("GET", "gold_price.xml", true);
 									  xmlhttp.send();
+
+										timer = setTimeout(loadXMLDoc, 5000);
 									}
 									function goldmyFunction(xml) {
 									  var i;
