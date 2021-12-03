@@ -2,94 +2,94 @@
 <CATALOG>
   <GOLD>
     <PRICE>Empire Burlesque</PRICE>
-    <ARTIST>Bob Dylan</ARTIST>
+    <NAME>Bob Dylan</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Hide your heart</PRICE>
-    <ARTIST>Bonnie Tyler</ARTIST>
+    <NAME>Bonnie Tyler</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Greatest Hits</PRICE>
-    <ARTIST>Dolly Parton</ARTIST>
+    <NAME>Dolly Parton</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Still got the blues</PRICE>
-    <ARTIST>Gary Moore</ARTIST>
+    <NAME>Gary Moore</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Eros</PRICE>
-    <ARTIST>Eros Ramazzotti</ARTIST>
+    <NAME>Eros Ramazzotti</NAME>
   </GOLD>
   <GOLD>
     <PRICE>One night only</PRICE>
-    <ARTIST>Bee Gees</ARTIST>
+    <NAME>Bee Gees</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Sylvias Mother</PRICE>
-    <ARTIST>Dr.Hook</ARTIST>
+    <NAME>Dr.Hook</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Maggie May</PRICE>
-    <ARTIST>Rod Stewart</ARTIST>
+    <NAME>Rod Stewart</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Romanza</PRICE>
-    <ARTIST>Andrea Bocelli</ARTIST>
+    <NAME>Andrea Bocelli</NAME>
   </GOLD>
   <GOLD>
     <PRICE>When a man loves a woman</PRICE>
-    <ARTIST>Percy Sledge</ARTIST>
+    <NAME>Percy Sledge</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Black angel</PRICE>
-    <ARTIST>Savage Rose</ARTIST>
+    <NAME>Savage Rose</NAME>
   </GOLD>
   <GOLD>
     <PRICE>1999 Grammy Nominees</PRICE>
-    <ARTIST>Many</ARTIST>
+    <NAME>Many</NAME>
   </GOLD>
   <GOLD>
     <PRICE>For the good times</PRICE>
-    <ARTIST>Kenny Rogers</ARTIST>
+    <NAME>Kenny Rogers</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Big Willie style</PRICE>
-    <ARTIST>Will Smith</ARTIST>
+    <NAME>Will Smith</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Tupelo Honey</PRICE>
-    <ARTIST>Van Morrison</ARTIST>
+    <NAME>Van Morrison</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Soulsville</PRICE>
-    <ARTIST>Jorn Hoel</ARTIST>
+    <NAME>Jorn Hoel</NAME>
   </GOLD>
   <GOLD>
     <PRICE>The very best of</PRICE>
-    <ARTIST>Cat Stevens</ARTIST>
+    <NAME>Cat Stevens</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Stop</PRICE>
-    <ARTIST>Sam Brown</ARTIST>
+    <NAME>Sam Brown</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Bridge of Spies</PRICE>
-    <ARTIST>T'Pau</ARTIST>
+    <NAME>T'Pau</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Private Dancer</PRICE>
-    <ARTIST>Tina Turner</ARTIST>
+    <NAME>Tina Turner</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Midt om natten</PRICE>
-    <ARTIST>Kim Larsen</ARTIST>
+    <NAME>Kim Larsen</NAME>
   </GOLD>
   <GOLD>
     <PRICE>Pavarotti Gala Concert</PRICE>
-    <ARTIST>Luciano Pavarotti</ARTIST>
+    <NAME>Luciano Pavarotti</NAME>
   </GOLD>
   <GOLD>
     <PRICE>The dock of the bay</PRICE>
-    <ARTIST>Otis Redding</ARTIST>
+    <NAME>Otis Redding</NAME>
   </GOLD>
 </CATALOG>
