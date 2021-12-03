@@ -88,12 +88,12 @@
 										<h2>Ceny Złota</h2>
 									</header>
 
-									<button type="button" onclick="loadXMLDoc()">Get my CD collection</button>
+									<button type="button" onclick="goldloadXMLDoc()">Get my CD collection</button>
 									<br><br>
 									<table id="gold_price"></table>
 
 									<script>
-									function loadXMLDoc() {
+									function goldloadXMLDoc() {
 									  var xmlhttp = new XMLHttpRequest();
 									  xmlhttp.onreadystatechange = function() {
 									    if (this.readyState == 4 && this.status == 200) {
@@ -134,12 +134,12 @@
 										<h2>Kursy Walut</h2>
 									</header>
 
-									<button type="button" onclick="loadXMLDoc()">Get my CD collection</button>
+									<button type="button" onclick="currencyloadXMLDoc()">Get my CD collection</button>
 									<br><br>
 									<table id="currency_price"></table>
 
 									<script>
-									function loadXMLDoc() {
+									function currencyloadXMLDoc() {
 									  var xmlhttp = new XMLHttpRequest();
 									  xmlhttp.onreadystatechange = function() {
 									    if (this.readyState == 4 && this.status == 200) {
