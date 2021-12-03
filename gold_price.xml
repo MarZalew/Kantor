@@ -1,95 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CATALOG>
   <GOLD>
-    <PRICE>Empire Burlesque</PRICE>
-    <NAME>Bob Dylan</NAME>
+    <PRICE>229.30 zł</PRICE>
+    <NAME>ZŁOTO 999,9</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>Hide your heart</PRICE>
-    <NAME>Bonnie Tyler</NAME>
+    <PRICE>209.00 zł</PRICE>
+    <NAME>ZŁOTO 960</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>Greatest Hits</PRICE>
-    <NAME>Dolly Parton</NAME>
+    <PRICE>208.10 zł</PRICE>
+    <NAME>ZŁOTO 916</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>Still got the blues</PRICE>
-    <NAME>Gary Moore</NAME>
+    <PRICE>204.30 zł</PRICE>
+    <NAME>ZŁOTO 900</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>Eros</PRICE>
-    <NAME>Eros Ramazzotti</NAME>
+    <PRICE>164.10 zł</PRICE>
+    <NAME>ZŁOTO 750</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>One night only</PRICE>
-    <NAME>Bee Gees</NAME>
+    <PRICE>132.10 zł</PRICE>
+    <NAME>ZŁOTO 585</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>Sylvias Mother</PRICE>
-    <NAME>Dr.Hook</NAME>
+    <PRICE>109.40 zł</PRICE>
+    <NAME>ZŁOTO 500</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>Maggie May</PRICE>
-    <NAME>Rod Stewart</NAME>
+    <PRICE>91.30 zł</PRICE>
+    <NAME>ZŁOTO 417</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>Romanza</PRICE>
-    <NAME>Andrea Bocelli</NAME>
+    <PRICE>82.10 zł</PRICE>
+    <NAME>ZŁOTO 375</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>When a man loves a woman</PRICE>
-    <NAME>Percy Sledge</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>Black angel</PRICE>
-    <NAME>Savage Rose</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>1999 Grammy Nominees</PRICE>
-    <NAME>Many</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>For the good times</PRICE>
-    <NAME>Kenny Rogers</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>Big Willie style</PRICE>
-    <NAME>Will Smith</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>Tupelo Honey</PRICE>
-    <NAME>Van Morrison</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>Soulsville</PRICE>
-    <NAME>Jorn Hoel</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>The very best of</PRICE>
-    <NAME>Cat Stevens</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>Stop</PRICE>
-    <NAME>Sam Brown</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>Bridge of Spies</PRICE>
-    <NAME>T'Pau</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>Private Dancer</PRICE>
-    <NAME>Tina Turner</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>Midt om natten</PRICE>
-    <NAME>Kim Larsen</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>Pavarotti Gala Concert</PRICE>
-    <NAME>Luciano Pavarotti</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>The dock of the bay</PRICE>
-    <NAME>Otis Redding</NAME>
+    <PRICE>72.90 zł</PRICE>
+    <NAME>ZŁOTO 333</NAME>
   </GOLD>
 </CATALOG>
