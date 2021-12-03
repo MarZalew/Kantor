@@ -88,28 +88,20 @@
 										<h2>Ceny Złota</h2>
 									</header>
 
-									<button type="button" onclick="goldloadXMLDoc()">Get my CD collection</button>
+									<button type="button" onfocus="goldloadXMLDoc()">Get my CD collection</button>
 									<br><br>
 									<table id="gold_price"></table>
 
 									<script>
 									function goldloadXMLDoc() {
-										var timer;
 									  var xmlhttp = new XMLHttpRequest();
 									  xmlhttp.onreadystatechange = function() {
 									    if (this.readyState == 4 && this.status == 200) {
 									      goldmyFunction(this);
 									    }
 									  };
-										
-										xmlhttp.onerror = function() {
-										clearTimeout(timer);
-										};
-
 									  xmlhttp.open("GET", "gold_price.xml", true);
 									  xmlhttp.send();
-
-										timer = setTimeout(loadXMLDoc, 5000);
 									}
 									function goldmyFunction(xml) {
 									  var i;
@@ -142,7 +134,7 @@
 										<h2>Kursy Walut</h2>
 									</header>
 
-									<button type="button" onclick="currencyloadXMLDoc()">Get my CD collection</button>
+									<button type="button" onchange="currencyloadXMLDoc()">Get my CD collection</button>
 									<br><br>
 									<table id="currency_price"></table>
 
