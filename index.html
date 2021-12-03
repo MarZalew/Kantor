@@ -107,12 +107,12 @@
 									  var i;
 									  var xmlDoc = xml.responseXML;
 									  var table="<tr><th>Próba</th><th>Cena</th></tr>";
-									  var x = xmlDoc.getElementsByTagName("CD");
+									  var x = xmlDoc.getElementsByTagName("GOLD");
 									  for (i = 0; i <x.length; i++) {
 									    table += "<tr><td>" +
-									    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+									    x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
 									    "</td><td>" +
-									    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+									    x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue +
 									    "</td></tr>";
 									  }
 									  document.getElementById("gold_price").innerHTML = table;
