@@ -1,23 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CATALOG>
-  <CURRENCY>
-    <PRICE>4.06</PRICE>
-    <NAME>Dolar amerykański USD</NAME>
-  </CURRENCY>
-  <CURRENCY>
-    <PRICE>4.59</PRICE>
-    <NAME>Euro EUR</NAME>
-  </CURRENCY>
-  <CURRENCY>
-    <PRICE>4,42</PRICE>
-    <NAME>Frank szwajcarski	CHF</NAME>
-  </CURRENCY>
-  <CURRENCY>
-    <PRICE>5,37</PRICE>
-    <NAME>Funt brytyjski	GBP</NAME>
-  </CURRENCY>
-  <CURRENCY>
-    <PRICE>0.1791</PRICE>
-    <NAME>Korona czeska	CZK</NAME>
-  </CURRENCY>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CURRENCY>
+		<PRICE>4.06</PRICE>
+		<NAME>Dolar amerykański USD</NAME>
+	</CURRENCY>
+	<CURRENCY>
+		<PRICE>4.59</PRICE>
+		<NAME>Euro EUR</NAME>
+	</CURRENCY>
+	<CURRENCY>
+		<PRICE>4,42</PRICE>
+		<NAME>Frank szwajcarski	CHF</NAME>
+	</CURRENCY>
+	<CURRENCY>
+		<PRICE>5,37</PRICE>
+		<NAME>Funt brytyjski	GBP</NAME>
+	</CURRENCY>
+	<CURRENCY>
+		<PRICE>0.1791</PRICE>
+		<NAME>Korona czeska	CZK</NAME>
+	</CURRENCY>
+	<CURRENCY>
+		<PRICE>0.1792</PRICE>
+		<NAME>Korona czeska	CZK</NAME>
+	</CURRENCY>
 </CATALOG>
