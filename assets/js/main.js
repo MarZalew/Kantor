@@ -306,4 +306,30 @@ var settings = {
 
 	});
 
+	// Scroll function
+
+	document.addEventListener("DOMContentLoaded", function() {
+		let currentSection = 1; // Initialize with the first 'id'
+	
+		const scrollButton = document.getElementById("scrollButton");
+	
+		scrollButton.addEventListener("click", function() {
+			const section = document.getElementById(`section${currentSection}`);
+			
+			if (section) {
+				const sectionTop = section.offsetTop;
+				window.scrollTo({
+					top: sectionTop,
+					behavior: "smooth"
+				});
+			}
+	
+			currentSection++;
+	
+			if (currentSection > 3) {
+				currentSection = 1; 
+			}
+		});
+	});
+
 })(jQuery);
