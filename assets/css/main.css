@@ -2592,6 +2592,7 @@
 
 		table td {
 			padding: 0.75rem 0.75rem;
+			vertical-align: baseline;
 		}
 
 		table th {
@@ -2599,6 +2600,7 @@
 			font-weight: 700;
 			padding: 0 0.75rem 0.75rem 0.75rem;
 			text-align: left;
+			vlign: 
 		}
 
 		table thead {
