@@ -308,28 +308,14 @@ var settings = {
 
 	// Scroll function
 
-	document.addEventListener("DOMContentLoaded", function() {
-		let currentSection = 1; // Initialize with the first 'id'
+	$("a[href^='#']").click(function(e) {
+		e.preventDefault();
+		
+		var position = $($(this).attr("href")).offset().top;
 	
-		const scrollButton = document.getElementById("scrollButton");
-	
-		scrollButton.addEventListener("click", function() {
-			const section = document.getElementById(`section${currentSection}`);
-			
-			if (section) {
-				const sectionTop = section.offsetTop;
-				window.scrollTo({
-					top: sectionTop,
-					behavior: "smooth"
-				});
-			}
-	
-			currentSection++;
-	
-			if (currentSection > 3) {
-				currentSection = 1; 
-			}
-		});
+		$("body, html").animate({
+			scrollTop: position
+		} /* speed */ );
 	});
 
 })(jQuery);
