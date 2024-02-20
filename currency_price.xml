@@ -1,88 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<CURRENCY>
-		<PRICE_BUY>4.06</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>4.06</PRICE>
 		<NAME>&lt;img src="images/ue.webp" alt="Flag" /&gt;  Euro [EUR]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>4.59</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>4.59</PRICE>
 		<NAME>&lt;img src="images/gb.webp" alt="Flag" /&gt;  Funt W. Brytania [GBP]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>4,42</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>4,42</PRICE>
 		<NAME>&lt;img src="images/ch.webp" alt="Flag" /&gt;  Frank Szwajcaria [CHF]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>5,37</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>5,37</PRICE>
 		<NAME>&lt;img src="images/au.webp" alt="Flag" /&gt;  Dolar Australia [AUD]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1791</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1791</PRICE>
 		<NAME>&lt;img src="images/ca.webp" alt="Flag" /&gt;  Dolar Kanada [CAD]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1792</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1792</PRICE>
 		<NAME>&lt;img src="images/se.webp" alt="Flag" /&gt;  Korona Szwecja [SEK]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1793</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1793</PRICE>
 		<NAME>&lt;img src="images/no.webp" alt="Flag" /&gt;  Korona Norwegia [NOK]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1794</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1794</PRICE>
 		<NAME>&lt;img src="images/dk.webp" alt="Flag" /&gt;  Korona Dania [DKK]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1795</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1795</PRICE>
 		<NAME>&lt;img src="images/cz.webp" alt="Flag" /&gt;  Korona Czechy [CZK]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1796</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1796</PRICE>
 		<NAME>&lt;img src="images/ru.webp" alt="Flag" /&gt;  Rubel Rosja [RUB]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1797</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1797</PRICE>
 		<NAME>&lt;img src="images/ua.webp" alt="Flag" /&gt;  Hrywna Ukraina [UAH]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1798</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1798</PRICE>
 		<NAME>&lt;img src="images/tr.webp" alt="Flag" /&gt;  Lir Turcja [TRL]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1799</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1799</PRICE>
 		<NAME>&lt;img src="images/hu.webp" alt="Flag" /&gt;  Forint Węgry [HUF]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1800</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1800</PRICE>
 		<NAME>&lt;img src="images/bg.webp" alt="Flag" /&gt;  Lewa Bułgaria [BGN]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1801</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1801</PRICE>
 		<NAME>&lt;img src="images/ro.webp" alt="Flag" /&gt;  Lej Rumunia [RON]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1802</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1802</PRICE>
 		<NAME>&lt;img src="images/hr.webp" alt="Flag" /&gt;  Kuna Chorwacja [HRK]</NAME>
 	</CURRENCY>
 	<CURRENCY>
-		<PRICE_BUY>0.1803</PRICE_BUY>
-		<PRICE_SELL>4.06</PRICE_SELL>
+		<PRICE>0.1803</PRICE>
 		<NAME>&lt;img src="images/ge.webp" alt="Flag" /&gt;  Lari Gruzja [GEL]</NAME>
 	</CURRENCY>
 </CATALOG>
