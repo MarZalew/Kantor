@@ -2593,6 +2593,7 @@
 		table td {
 			padding: 0.75rem 0.75rem;
 			vertical-align: middle;
+			text-align: center;
 		}
 
 		table th {
