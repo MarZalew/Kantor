@@ -140,7 +140,7 @@
 									function currencymyFunction(xml) {
 									  var i;
 									  var xmlDoc = xml.responseXML;
-									  var table="<tr><th>Waluta</th><th>Cena</th></tr>";
+									  var table="<tr><th>Waluta</th><th>Cena Skupu</th><th>Cena Sprzedaży</th></tr>";
 									  var x = xmlDoc.getElementsByTagName("CURRENCY");
 									  for (i = 0; i <x.length; i++) {
 									    table += "<tr><td>" +
