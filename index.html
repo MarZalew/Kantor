@@ -90,24 +90,24 @@
 									      currencymyFunction(this);
 									    }
 									  };
-									  xmlhttp.open("GET", "currency_price.xml", true);
+									  xmlhttp.open("GET", "currency_PRICE_BUY.xml", true);
 									  xmlhttp.send();
 									}
 									function currencymyFunction(xml) {
 									  var i;
 									  var xmlDoc = xml.responseXML;
-									  var table="<tr><th>Waluta</th><th>Cena Zakupu</th><th>Cena Sprzedaży</th></tr>";
+									  var table="<tr><th>Waluta</th><th>Cena</th></tr>";
 									  var x = xmlDoc.getElementsByTagName("CURRENCY");
 									  for (i = 0; i <x.length; i++) {
 									    table += "<tr><td>" +
 									    x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
 									    "</td><td>" +
-									    x[i].getElementsByTagName("PRICE_BUY")[0].childNodes[0].nodeValue +
+									    x[i].getElementsByTagName("PRICE_BUY_BUY")[0].childNodes[0].nodeValue +
 									    "</td></tr>";
-										x[i].getElementsByTagName("PRICE_SELL")[0].childNodes[0].nodeValue +
+										x[i].getElementsByTagName("PRICE_BUY_SELL")[0].childNodes[0].nodeValue +
 									    "</td></tr>";
 									  }
-									  document.getElementById("currency_price").innerHTML = table;
+									  document.getElementById("currency_PRICE_BUY").innerHTML = table;
 									}
 									</script>
 
