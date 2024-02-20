@@ -2,18 +2,18 @@
 <CATALOG>
   <GOLD>
     <PRICE>244.02</PRICE>
-    <NAME>ZŁOTO 999</NAME>
+    <NAME>&lt;img src="images/gold.webp" alt="Icon" /&gt;  ZŁOTO 999</NAME>
   </GOLD>
   <GOLD>
     <PRICE>183.20</PRICE>
-    <NAME>ZŁOTO 750</NAME>
+    <NAME>&lt;img src="images/gold.webp" alt="Icon" /&gt;  ZŁOTO 750</NAME>
   </GOLD>
   <GOLD>
     <PRICE>142.90</PRICE>
-    <NAME>ZŁOTO 585</NAME>
+    <NAME>&lt;img src="images/gold.webp" alt="Icon" /&gt;  ZŁOTO 585</NAME>
   </GOLD>
   <GOLD>
     <PRICE>1.71</PRICE>
-    <NAME>SREBRO 925</NAME>
+    <NAME>&lt;img src="images/silv.webp" alt="Icon" /&gt;  SREBRO 925</NAME>
   </GOLD>
 </CATALOG>
