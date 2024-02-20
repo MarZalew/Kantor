@@ -137,7 +137,7 @@
 									      goldmyFunction(this);
 									    }
 									  };
-									  xmlhttp.open("GET", "gold_price.xml", true);
+									  xmlhttp.open("GET", "gold_PRICE_BUY.xml", true);
 									  xmlhttp.send();
 									}
 									function goldmyFunction(xml) {
@@ -149,10 +149,10 @@
 									    table += "<tr><td>" +
 									    x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
 									    "</td><td>" +
-									    x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue +
+									    x[i].getElementsByTagName("PRICE_BUY")[0].childNodes[0].nodeValue +
 									    "</td></tr>";
 									  }
-									  document.getElementById("gold_price").innerHTML = table;
+									  document.getElementById("gold_PRICE_BUY").innerHTML = table;
 									}
 									</script>
 
