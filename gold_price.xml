@@ -1,43 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CATALOG>
   <GOLD>
-    <PRICE>229.30 zł</PRICE>
-    <NAME>ZŁOTO 999,9</NAME>
+    <PRICE>244.02</PRICE>
+    <NAME>ZŁOTO 999</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>209.00 zł</PRICE>
-    <NAME>ZŁOTO 960</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>208.10 zł</PRICE>
-    <NAME>ZŁOTO 916</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>204.30 zł</PRICE>
-    <NAME>ZŁOTO 900</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>164.10 zł</PRICE>
+    <PRICE>183.20</PRICE>
     <NAME>ZŁOTO 750</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>132.10 zł</PRICE>
+    <PRICE>142.90</PRICE>
     <NAME>ZŁOTO 585</NAME>
   </GOLD>
   <GOLD>
-    <PRICE>109.40 zł</PRICE>
-    <NAME>ZŁOTO 500</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>91.30 zł</PRICE>
-    <NAME>ZŁOTO 417</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>82.10 zł</PRICE>
-    <NAME>ZŁOTO 375</NAME>
-  </GOLD>
-  <GOLD>
-    <PRICE>72.90 zł</PRICE>
-    <NAME>ZŁOTO 333</NAME>
+    <PRICE>1.71</PRICE>
+    <NAME>SREBRO 925</NAME>
   </GOLD>
 </CATALOG>
