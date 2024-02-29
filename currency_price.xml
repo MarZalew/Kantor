@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<CURRENCY>
-		<PRICE_SELL>4.005</PRICE_SELL>
+		<PRICE_SELL>4.040</PRICE_SELL>
 		<PRICE_BUY>3.960</PRICE_BUY>
 		<NAME>&lt;img src="images/usd.webp" alt="Flag" /&gt;  [USD] Dolar Amerykański</NAME>
 	</CURRENCY>
