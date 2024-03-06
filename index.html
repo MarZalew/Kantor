@@ -27,15 +27,6 @@
 		<!-- Banner -->
 			<section id="Index" class="banner full">
 				<article>
-					<img src="images/slide01.jpg" alt="SliderElement" />
-					<div class="inner">
-						<a href="#Ceny_Złota"><header>
-							<p>Najkorzystniejsze ceny</p>
-							<h2>Skup Złota</h2>
-						</header></a>
-					</div>
-				</article>
-				<article>
 					<img src="images/slide02.jpg" alt="SliderElement" />
 					<div class="inner">
 						<a href="#Kurs_Walut"><header>
@@ -45,11 +36,11 @@
 					</div>
 				</article>
 				<article>
-					<img src="images/slide04.jpg"  alt="SliderElement" />
+					<img src="images/slide01.jpg" alt="SliderElement" />
 					<div class="inner">
-						<a href="#O_Kantorze"><header>
-							<p>Poznaj nas i dowiedz się wiecej</p>
-							<h2>O Kantorze</h2>
+						<a href="#Ceny_Złota"><header>
+							<p>Najkorzystniejsze ceny</p>
+							<h2>Skup Złota</h2>
 						</header></a>
 					</div>
 				</article>
@@ -59,6 +50,15 @@
 						<a href="#Kontakt"><header>
 							<p>Pisz śmiało, gdy masz wątpliwości</p>
 							<h2>Kontakt</h2>
+						</header></a>
+					</div>
+				</article>
+				<article>
+					<img src="images/slide04.jpg"  alt="SliderElement" />
+					<div class="inner">
+						<a href="#O_Kantorze"><header>
+							<p>Poznaj nas i dowiedz się wiecej</p>
+							<h2>O Kantorze</h2>
 						</header></a>
 					</div>
 				</article>
@@ -79,6 +79,21 @@
 										<p>Ceny aktualizowane z trendem</p>
 										<h2>Kursy Walut</h2>
 									</header>
+									<div class="align-center">
+										<h2>Ważna informacja!</h2>
+										<p>
+										Uwaga! Ceny są odświeżane automatycznie i mogą uledz zmianie, obecne ceny mają charakter informacyjny.
+										<script language="php">  
+											$name = "currency_price.xml";  
+											function getModTime($file) {
+											$time = filemtime($file);
+											$date = date("G:i:s d.m.Y", $time);
+											echo "Data ostatniej aktualizacji: ". $date;
+											}
+											 getModTime($name);
+										</script>
+										</p>
+										</div>
 									<table id="currency_price"></table>
 
 									<script>
@@ -95,15 +110,15 @@
 									function currencymyFunction(xml) {
 									  var i;
 									  var xmlDoc = xml.responseXML;
-									  var table="<tr><th>Waluta</th><th>Sprzedaż</th><th>Skup</th></tr>";
+									  var table="<tr><th>Waluta</th><th>Skup</th><th>Sprzedaż</th></tr>";
 									  var x = xmlDoc.getElementsByTagName("CURRENCY");
 									  for (i = 0; i <x.length; i++) {
 									    table += "<tr><td>" +
 									    x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
 									    "</td><td>" +
-										x[i].getElementsByTagName("PRICE_SELL")[0].childNodes[0].nodeValue +
-									    "</td><td>" +
 										x[i].getElementsByTagName("PRICE_BUY")[0].childNodes[0].nodeValue +
+									    "</td><td>" +
+										x[i].getElementsByTagName("PRICE_SELL")[0].childNodes[0].nodeValue +
 									    "</td></tr>";
 									  }
 									  document.getElementById("currency_price").innerHTML = table;
@@ -154,19 +169,51 @@
 									}
 									</script>
 
+									
+
 								</div>
 							</div>
+
+							<div class="box">
+								<div id="Kontakt" class="image fit ">
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>Pozostań z nami w kontakcie, by być na bierząco</p>
+										<h2>Kontakt</h2>
+									</header>
+
+								<section>
+									<div class="inner">
+										<div>
+											<div class="box">
+												<div style="padding-left: 20px;">
+												<p></p>
+												<h4><b>Numer Telefonu:</b></h4>
+												<a href="tel:+48660999959"><h5>660-999-959<h5></a>
+												<h4><b>WhatsApp:</b></h4>
+												<a href="https://wa.me/48660999959"><h5>660-999-959<h5></a>
+												<h4><b>Mail:</b></h4>
+												<a href="mailto:kantorzysk@gmail.com"><h5>kantorzysk@gmail.com<h5></a>
+												<h4><b>Adres:</b></h4>
+												<h5>04-398 Warszawa, ul. Grochowska 250<h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								</div>
 						</div>
 
 					</div>
 				</div>
 			</section>
 
-			<section id="Kontakt" class="wrapper style3 ">
+			<section id="O_Kantorze" class="wrapper style3 ">
 				<div class="inner">
 					<header class="align-center">
-						<p>Pozostań z nami w kontakcie, by być na bierząco</p>
-						<h2>Kontakt</h2>
+						<p>Poznaj nas i dowiedz się wiecej o naszej działalności</p>
+						<h2>O Kantorze</h2>
 					</header>
 				</div>
 			</section>
@@ -182,16 +229,13 @@
 										</iframe>
 								</div>
 								<div class="box">
-									<div style="padding-left: 20px;">
+									<div style="padding-left: 20px;padding-right: 20px; text-align: justify;">
 									<p></p>
-									<h4><b>Numer Telefonu:</b></h4>
-									<h5>666-893-089<h5>
-									<h4><b>Adres:</b></h4>
-									<h5>04-398 Warszawa, ul. Grochowska 250<h5>
-									<h4><b>WhatsApp:</b></h4>
-									<h5>666-893-089<h5>
-									<h4><b>Instagram:</b></h4>
-									<a href="#"><h5>@cos_tam<h5></a>
+									<h4><b>Kilka słów o nas</b></h4>
+									<h5>W ciągu kilkunastoletniej działalności udało nam się zbudować solidne relacje z szerokim gronem stałych klientów, zarówno indywidualnych, jak i instytucjonalnych.<h5>
+									<h5>Nasza renoma opiera się na profesjonalizmie oraz zapewnieniu bezpieczeństwa transakcji. Dzięki bogatemu doświadczeniu możemy zawsze doradzić naszym klientom oraz proponować najkorzystniejsze kursy walutowe.<h5>
+									<h5>Naszym klientom zapewniamy pełną dyskrecję, profesjonalną obsługę oraz konkurencyjne kursy wymiany.<h5>
+									<h5>Posiadamy niezbędną wiedzę i przeszkolenie, w tym dotyczące przeciwdziałania praniu brudnych pieniędzy oraz wykrywania fałszywych banknotów.</h5>
 									</div>
 								</div>
 							</div>
@@ -203,12 +247,13 @@
 			<footer id="footer">
 				<div class="container">
 					<ul class="icons">
-						<li><a href="#" class="icon fa-whatsapp"><span class="label">WhatsApp</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://wa.me/48660999959" class="icon fa-whatsapp"><span class="label">WhatsApp</span></a></li>
+						<li><a href="tel:+48660999959" class="icon fa-phone"><span class="label">Phone</span></a></li>
+						<li><a href="mailto:kantorzysk@gmail.com" class="icon fa-envelope"><span class="label">Envelope</span></a></li>
 					</ul>
 				</div>
 				<div class="copyright">
-					&copy; Kantor Zysk - Wszelkie prawa zastrzeżone.
+					&copy; <a href="#Index">Kantor Zysk</a> - Wszelkie prawa zastrzeżone.
 				</div>
 			</footer>
 

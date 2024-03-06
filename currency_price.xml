@@ -82,11 +82,6 @@
 	</CURRENCY>
 	<CURRENCY>
 		<PRICE_SELL>0.000</PRICE_SELL>
-		<PRICE_BUY>0.400</PRICE_BUY>
-		<NAME>&lt;img src="images/hr.webp" alt="Flag" /&gt;  [HRK] Kuna Chorwacja</NAME>
-	</CURRENCY>
-	<CURRENCY>
-		<PRICE_SELL>0.000</PRICE_SELL>
 		<PRICE_BUY>0.000</PRICE_BUY>
 		<NAME>&lt;img src="images/ge.webp" alt="Flag" /&gt;  [GEL] Lari Gruzja</NAME>
 	</CURRENCY>
